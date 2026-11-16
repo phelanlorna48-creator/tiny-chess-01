@@ -1,5 +1,9 @@
 # tiny-chess
 
+[![bounty](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/phelanlorna48-creator/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard)
+[![reward](https://make.fun/badge/tiny-chess-01/phelanlorna48-creator/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01)
+
 A chess engine in at most 4,096 bytes of Python (an lzma-packed entry;
 the readable source is submitted with the entry). Negamax alpha-beta
 search with quiescence, a transposition table, MVV-LVA / killer /
