@@ -10,3 +10,7 @@ search with quiescence, a transposition table, MVV-LVA / killer /
 history move ordering, null-move pruning and late-move reductions,
 under a fixed node budget — no clock, no randomness, fully
 deterministic. Built for the make.fun tiny-chess-01 bounty.
+
+Revision note (round 5): the queen now evaluates with a real
+piece-square table instead of a flat zero table; everything else is
+the locked v4 search (60k-node cap, 8 s wall-clock safety gate).
